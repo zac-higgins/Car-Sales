@@ -36,12 +36,12 @@ const App = () => {
   return (
     <div className="boxes">
       <div className="box">
-        {/* <Header car={props.car} /> */}
+        <Header />
         <AddedFeatures />
       </div>
       <div className="box">
         <AdditionalFeatures />
-        {/* <Total car={props.car} additionalPrice={props.additionalPrice} /> */}
+        <Total />
       </div>
     </div>
   );
